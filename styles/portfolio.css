@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-font-size: 86px;
+font-size: 64px;
 line-height: 1.5;
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 48px;
 }
 
 h3 {
@@ -44,7 +44,7 @@ p {
 }
 
 .hero {
-    background: var(--secondary-color); #f9f7fe;
+    background: var(--secondary-color);
     text-align: center;
     padding: 80px 20px;
 }
@@ -75,7 +75,7 @@ font-size: 24px;
 }
 
 .content h1 {
-font-size: 64px;
+font-size: 52px;
 line-height: 80px;
 }
 
@@ -209,4 +209,21 @@ footer .social-links a:hover {
         footer .contact-box {
         padding: 30px;
         }
+}
+
+.my-skills img {
+    display: inline;
+    width: 80px;
+    margin: 50px 10px 5px;
+    padding: 5px;
+}
+
+.certificate-image {
+    max-width: 80%;
+    margin: 30px 10px;
+}
+
+.my-image {
+    max-width: 70%;
+    margin-left: 80px;
 }
