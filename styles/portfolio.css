@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-font-size: 64px;
+font-size: 72px;
 line-height: 1.5;
 }
 
@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .text-logo {
@@ -44,9 +44,10 @@ p {
 }
 
 .hero {
-    background: var(--secondary-color);
+    background-image: url(../images/drops.jpg);
     text-align: center;
-    padding: 80px 20px;
+    background-size: 100%;
+    padding: 140px 20px;
 }
 
 .hero p {
@@ -62,6 +63,11 @@ font-family: var(--heading-font-family);
 font-weight: normal;
 line-height: 1.5;
 font-size: 24px;
+opacity: 0.7;
+}
+
+.row {
+    margin: 0 0 60px;
 }
 
 .content-container {
@@ -71,16 +77,19 @@ font-size: 24px;
 }
 
 .content {
-    margin: 30px;
+    margin: 5px 40px;
+    padding: 0;
 }
 
 .content h1 {
-font-size: 52px;
+font-size: 48px;
 line-height: 80px;
 }
 
 .content h2 {
-    font-size: 18px;
+    font-size: 28px;
+    text-align: center;
+    opacity: 0.8;
     font-family: var(--default-font-family);
 }
 
@@ -91,7 +100,13 @@ line-height: 80px;
     }
 
 .content p {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.about-page-btn {
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+    text-decoration: none;
 }
 
 .btn-branding {
@@ -132,7 +147,7 @@ nav li {
 }
 
 nav ul {
-    padding: 0;
+    padding: 0 80px;
     margin: 0;
 }
 
@@ -155,8 +170,8 @@ footer {
 }
 
 footer .contact-box {
-    background: var(--secondary-color);
-    padding: 30px 120px;
+    background: #D7D1F9;
+    padding: 30px 30px;
     border-radius: 10px;
 }
 
@@ -178,9 +193,9 @@ footer .social-links a {
     margin: 0 20px;
     color: var(--branding-color);
     background: var(--secondary-color);
-    padding: 10px 14px;
+    padding: 7px 14px;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 28px;
     transition: all 150ms ease-in-out;
 }
 
@@ -191,7 +206,7 @@ footer .social-links a:hover {
 
 @media (max-width: 900px)  {
     h1 {
-        font-size: 44px;
+        font-size: 52px;
         line-height: 2;
     }
 
@@ -226,4 +241,14 @@ footer .social-links a:hover {
 .my-image {
     max-width: 70%;
     margin-left: 80px;
+    margin-top: 30px;
+}
+
+.project-name {
+    font-size: 48px;
+}
+
+.project-header {
+    padding: 20px 20px 10px;
+    text-align: center;
 }
